@@ -1,0 +1,5 @@
+project: nginx-ha
+repo: https://github.com/ryanjrtchomkem237-ops/nginx-dokploy.git
+branch: main
+compose: docker-compose.yml
+env: []
