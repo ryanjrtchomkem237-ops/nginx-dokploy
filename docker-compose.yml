@@ -8,5 +8,8 @@ services:
       restart_policy:
         condition: on-failure
     ports:
-      - "8080:80"
+      - published: 8080
+        target: 80
+        protocol: tcp
+        mode: ingress
 
